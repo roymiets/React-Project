@@ -1,0 +1,60 @@
+/* src/App.css */
+body {
+  background-color: #2c2c54;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(40deg, #ea00ff, #ea00ff, #03d5ff, #03d5ff);
+
+}
+
+.concepts {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.concept {
+  text-align: center;
+  width: 20%;
+}
+
+.concept-image {
+  width: 50px;
+  height: 50px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.tabs button {
+  background: none;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.tabs button.active {
+  border-bottom: 2px solid #fff;
+}
+
+.tab-content {
+  text-align: center;
+}
+.Example-h2{
+  text-align: center;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
